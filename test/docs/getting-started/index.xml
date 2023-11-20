@@ -1,0 +1,407 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uganda Data – Getting Started</title>
+    <link>/docs/getting-started/</link>
+    <description>Recent content in Getting Started on Uganda Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Authorization</title>
+      <link>/docs/getting-started/authorization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/getting-started/authorization/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;authorization&#34;&gt;Authorization&lt;/h2&gt;
+&lt;p&gt;The Uganda Data Project API utilizes API keys for authorization, ensuring secure access to its services. To interact with the API, users must possess valid API credentials, which can be generated from the &amp;ldquo;API Keys&amp;rdquo; section within their Uganda Data Project account.&lt;/p&gt;
+&lt;h3 id=&#34;api-key-authorization&#34;&gt;API Key Authorization&lt;/h3&gt;
+&lt;p&gt;API Key Authorization involves including a unique API key in the HTTP headers of the API request. The Uganda Data Project API utilizes this method to authenticate and authorize users.&lt;/p&gt;
+&lt;h3 id=&#34;generating-api-key&#34;&gt;Generating API Key&lt;/h3&gt;
+&lt;p&gt;Follow these steps to generate an API key:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Log in to Your Uganda Data Project Account:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visit &lt;a href=&#34;https://uganda.rapharm.shop&#34;&gt;uganda.rapharm.shop&lt;/a&gt; and log in to your Uganda Data Project account.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Navigate to API Keys:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In your account profile settings, find the &amp;ldquo;API Keys&amp;rdquo; section. This is where you can generate and manage your API keys.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Generate API Key:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inside the &amp;ldquo;API Keys&amp;rdquo; section, find an option to generate a new API key. Click on this option to create a unique key for API access.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Copy Your API Key:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Once generated, copy your API key. This key serves as your authentication token.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;using-api-key&#34;&gt;Using API Key&lt;/h3&gt;
+&lt;p&gt;To make API requests, include your API key in the HTTP headers of your requests. Here is an example using the &lt;code&gt;curl&lt;/code&gt; command-line tool:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -H &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Authorization: Bearer YOUR_API_KEY&amp;#34;&lt;/span&gt; https://api.uganda-data-project.com/v1/endpoint
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: API Limits</title>
+      <link>/docs/getting-started/limits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/getting-started/limits/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;api-limits&#34;&gt;API Limits&lt;/h2&gt;
+&lt;p&gt;The Uganda Data Project API currently does not impose specific limits on the number of API requests made by users. However, it&amp;rsquo;s important to use the API responsibly and avoid excessive or abusive usage to ensure fair access for all users.&lt;/p&gt;
+&lt;h3 id=&#34;important-guidelines&#34;&gt;Important Guidelines:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Responsible Use:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make API requests responsibly and avoid unnecessary or excessive usage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Avoid Abuse:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do not engage in activities that could be considered abuse or misuse of the API.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Contact Support:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you have specific requirements or anticipate high-volume usage, please contact our support team at &lt;a href=&#34;mailto:katznicho@gmail.com&#34;&gt;katznicho@gmail.com&lt;/a&gt;. for assistance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Important Note:&lt;/strong&gt; Any updates to API limits will be communicated through official channels, and users are encouraged to stay informed about any changes.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Account Verification</title>
+      <link>/docs/getting-started/account_verification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/getting-started/account_verification/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;account-verification&#34;&gt;Account Verification&lt;/h2&gt;
+&lt;p&gt;During the sign-up process for the Uganda Data Project, account verification is handled through email confirmation. Upon successful registration, an email will be sent to the provided email address with a verification link.&lt;/p&gt;
+&lt;h3 id=&#34;email-verification&#34;&gt;Email Verification&lt;/h3&gt;
+&lt;p&gt;To complete the account verification process, follow these steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Check Your Email:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;After signing up, check the email address you used for registration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Open the Verification Email:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Find the email from Uganda Data Project in your inbox and open it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Click the Verification Link:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Click on the verification link within the email. This will confirm the validity of your email address.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Completion:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Once you&amp;rsquo;ve clicked the verification link, your account is successfully verified, and you can now access the Uganda Data Project with full functionality.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;resending-verification-email&#34;&gt;Resending Verification Email&lt;/h3&gt;
+&lt;p&gt;If you haven&amp;rsquo;t received the verification email, you can request a new one by visiting your account settings on the Uganda Data Project platform.&lt;/p&gt;
+&lt;h3 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h3&gt;
+&lt;p&gt;If you encounter any issues with the account verification process, please contact our support team at &lt;a href=&#34;mailto:katznicho@gmail.com&#34;&gt;katznicho@gmail.com&lt;/a&gt;. for assistance.&lt;/p&gt;
+&lt;p&gt;Congratulations! You&amp;rsquo;ve successfully verified your Uganda Data Project account through email confirmation. If you have any questions or concerns, feel free to reach out to our support team.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Possible Error Codes</title>
+      <link>/docs/getting-started/possible_error_codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/getting-started/possible_error_codes/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;possible-error-codes&#34;&gt;Possible Error Codes&lt;/h2&gt;
+&lt;p&gt;The following is a list of possible error codes:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;errorCode&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;NOT_FOUND&lt;/td&gt;
+&lt;td&gt;Resource not found&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;INVALID_CREDENTIALS&lt;/td&gt;
+&lt;td&gt;Invalid or incorrect credentials provided&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;INTERNAL_SERVER_ERROR&lt;/td&gt;
+&lt;td&gt;Internal server error; the request may or may not be successful&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;UNSPECIFIED_ENVIRONMENT&lt;/td&gt;
+&lt;td&gt;Please specify the environment to process this request&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;INVALID_PARAMETERS&lt;/td&gt;
+&lt;td&gt;Invalid parameters were passed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If you encounter any of these error codes, please review your request and ensure that the provided information is accurate. For further assistance, contact our support team at &lt;a href=&#34;mailto:katznicho@gmail.com&#34;&gt;katznicho@gmail.com&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Theme Customization</title>
+      <link>/docs/getting-started/theming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/getting-started/theming/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;theme-customization&#34;&gt;Theme Customization&lt;/h2&gt;
+&lt;p&gt;Personalize your experience with the Uganda Data Laravel application by customizing the theme. Follow these steps to select a theme and choose between light and dark modes to suit your preferences.&lt;/p&gt;
+&lt;h3 id=&#34;accessing-theme-settings&#34;&gt;Accessing Theme Settings&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Log in to Your Account:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visit &lt;a href=&#34;https://your-uganda-data-app.com&#34;&gt;Uganda Data Laravel&lt;/a&gt; and log in to your account.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Navigate to Your Profile:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Click on your user profile or navigate to the profile section.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Access Theme Settings:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Within the profile section, locate the &amp;ldquo;Theme&amp;rdquo; or &amp;ldquo;Appearance&amp;rdquo; settings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;choosing-a-theme-and-mode&#34;&gt;Choosing a Theme and Mode&lt;/h3&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Browse Available Themes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explore the list of available themes that support both light and dark modes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Select Your Preferred Theme:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Click on the theme you want to use.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Choose Light or Dark Mode:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If the selected theme supports both light and dark modes, look for an option to switch between them. Select your preferred mode.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;previewing-themes&#34;&gt;Previewing Themes&lt;/h3&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Preview Before Applying:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Some applications allow you to preview a theme before applying it. If available, take advantage of this feature to see how the theme looks in both light and dark modes before making a final decision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;saving-your-theme-selection&#34;&gt;Saving Your Theme Selection&lt;/h3&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Save Your Changes:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;If there&amp;rsquo;s a &amp;ldquo;Save&amp;rdquo; or &amp;ldquo;Apply&amp;rdquo; button, click it to save your theme and mode selection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;enjoy-your-customized-experience&#34;&gt;Enjoy Your Customized Experience&lt;/h3&gt;
+&lt;p&gt;Congratulations! You&amp;rsquo;ve successfully customized the theme in your Uganda Data Laravel application, choosing between light and dark modes. Enjoy a personalized experience tailored to your preferences.&lt;/p&gt;
+&lt;p&gt;If you encounter any issues or have questions regarding theme customization, feel free to reach out to our support team for assistance.&lt;/p&gt;
+&lt;p&gt;Happy theming!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Two-Factor Authentication Setup</title>
+      <link>/docs/getting-started/2fa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/getting-started/2fa/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;two-factor-authentication-setup&#34;&gt;Two-Factor Authentication Setup&lt;/h2&gt;
+&lt;p&gt;Enhance the security of your account by enabling Two-Factor Authentication (2FA). Follow these steps to complete the setup process.&lt;/p&gt;
+&lt;h3 id=&#34;step-1-accessing-2fa-setup&#34;&gt;Step 1: Accessing 2FA Setup&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Log in to Your Account:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visit &lt;a href=&#34;https://your-application.com&#34;&gt;Your Application&lt;/a&gt; and log in to your account.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Navigate to Your Profile:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Click on your user profile or navigate to the profile section.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Locate 2FA Settings:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Look for the &amp;ldquo;Two-Factor Authentication&amp;rdquo; or &amp;ldquo;Security Settings&amp;rdquo; subsection within your profile.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;step-2-enable-2fa&#34;&gt;Step 2: Enable 2FA&lt;/h3&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Initiate 2FA Setup:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Click on the option to &amp;ldquo;Enable Two-Factor Authentication&amp;rdquo; or a similar setting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Choose Method:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select the preferred method for setting up 2FA: &lt;strong&gt;QR Code&lt;/strong&gt; or &lt;strong&gt;Manual Entry&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;step-3-qr-code-setup&#34;&gt;Step 3: QR Code Setup&lt;/h3&gt;
+&lt;h4 id=&#34;using-authenticator-app&#34;&gt;Using Authenticator App&lt;/h4&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Scan QR Code:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open your authenticator app on your smartphone.&lt;/li&gt;
+&lt;li&gt;Scan the displayed QR code within the app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Save Backup Codes:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Save the provided backup codes in a secure place. These codes are essential for account recovery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enter Generated OTP:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enter the OTP (One-Time Password) generated by the authenticator app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;step-4-manual-entry-setup&#34;&gt;Step 4: Manual Entry Setup&lt;/h3&gt;
+&lt;h4 id=&#34;without-qr-code-optional&#34;&gt;Without QR Code (Optional)&lt;/h4&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Copy Setup Key:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you choose manual entry, copy the provided setup key.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Paste in Authenticator App:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open your authenticator app and manually enter the setup key.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enter Generated OTP:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enter the OTP (One-Time Password) generated by the authenticator app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;step-5-complete-setup&#34;&gt;Step 5: Complete Setup&lt;/h3&gt;
+&lt;ol start=&#34;12&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Verify 2FA Setup:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Complete any additional steps to verify your 2FA setup.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Confirmation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You will receive a confirmation message indicating successful 2FA setup.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;congratulations&#34;&gt;Congratulations!&lt;/h3&gt;
+&lt;p&gt;You&amp;rsquo;ve successfully enabled Two-Factor Authentication for your account. Your account is now more secure with an additional layer of protection.&lt;/p&gt;
+&lt;p&gt;If you encounter any issues or have questions regarding the 2FA setup process, feel free to reach out to our support team for assistance.&lt;/p&gt;
+&lt;p&gt;Enjoy the enhanced security of your account!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Base API</title>
+      <link>/docs/getting-started/baseurl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/getting-started/baseurl/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This section provides an overview of the base API for managing data in Uganda. Ensure that the &lt;code&gt;X-Requested-With&lt;/code&gt; header is set with &lt;code&gt;XMLHttpRequest&lt;/code&gt; and include the bearer token in the &lt;code&gt;Authorization&lt;/code&gt; header for authentication.&lt;/p&gt;
+&lt;h3 id=&#34;base-api-url&#34;&gt;Base API URL&lt;/h3&gt;
+&lt;p&gt;The base URL for the API is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;https://uganda.rapharm.shop/api/uganda/data/v1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+  </channel>
+</rss>

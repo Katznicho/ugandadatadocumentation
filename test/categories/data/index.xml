@@ -1,0 +1,66 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uganda Data – data</title>
+    <link>/categories/data/</link>
+    <description>Recent content in data on Uganda Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="/categories/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Getting Started</title>
+      <link>/docs/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/getting-started/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;Welcome to the Uganda Data Project documentation. This guide will help you get started with accessing data related to districts, counties, sub-counties, parishes, and villages in Uganda through the Uganda Data Project API.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before you begin, ensure that you have the following prerequisite:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Uganda Data Project Account:&lt;/strong&gt; Visit &lt;a href=&#34;https://uganda.rapharm.shop&#34;&gt;uganda.rapharm.shop&lt;/a&gt; and sign up for an account if you don&amp;rsquo;t have one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;generating-api-key&#34;&gt;Generating API Key&lt;/h2&gt;
+&lt;p&gt;Once you have an account on the Uganda Data Project, follow these steps to generate an API key:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Log in to your Uganda Data Project account at &lt;a href=&#34;https://uganda.rapharm.shop&#34;&gt;uganda.rapharm.shop&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Navigate to your profile settings.&lt;/li&gt;
+&lt;li&gt;Under the &amp;ldquo;API Keys&amp;rdquo; section, generate an API key. Keep this key secure.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;accessing-data-through-api&#34;&gt;Accessing Data Through API&lt;/h2&gt;
+&lt;p&gt;Now that you have an API key, you can access data through the Uganda Data Project API:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use the API key in your requests to authenticate and access the API endpoints.&lt;/li&gt;
+&lt;li&gt;Explore the available datasets related to districts, counties, sub-counties, parishes, and villages in Uganda.&lt;/li&gt;
+&lt;li&gt;Follow the API documentation for details on endpoints, parameters, and response formats.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;try-it-out&#34;&gt;Try it out!&lt;/h2&gt;
+&lt;p&gt;Now that you are set up with an API key, you can start accessing data programmatically:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use tools like cURL, Postman, or your preferred programming language to make API requests.&lt;/li&gt;
+&lt;li&gt;Retrieve data on districts, counties, sub-counties, parishes, and villages for your specific needs.&lt;/li&gt;
+&lt;li&gt;Integrate Uganda Data Project data into your applications, research, or analysis.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Congratulations! You&amp;rsquo;ve successfully set up and started using the Uganda Data Project API. If you encounter any issues or have questions, refer to the &lt;a href=&#34;https://docs.uganda-data-project.com/api&#34;&gt;Uganda Data Project API documentation&lt;/a&gt; for detailed information.&lt;/p&gt;
+&lt;p&gt;Feel free to customize the content further based on the specific API features and setup process of the Uganda Data Project.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

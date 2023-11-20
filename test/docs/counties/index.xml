@@ -1,0 +1,133 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uganda Data – Counties</title>
+    <link>/docs/counties/</link>
+    <description>Recent content in Counties on Uganda Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	  <atom:link href="/docs/counties/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Routes</title>
+      <link>/docs/counties/routes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/counties/routes/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This section provides information about the API routes related to counties in Uganda. Ensure that the &lt;code&gt;X-Requested-With&lt;/code&gt; header is set with &lt;code&gt;XMLHttpRequest&lt;/code&gt; and include the bearer token in the &lt;code&gt;Authorization&lt;/code&gt; header for authentication.&lt;/p&gt;
+&lt;h2 id=&#34;get-counties&#34;&gt;Get Counties&lt;/h2&gt;
+&lt;h4 id=&#34;endpoint&#34;&gt;Endpoint&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;GET /counties
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Get a list of counties in Uganda.&lt;/p&gt;
+&lt;h3 id=&#34;headers&#34;&gt;Headers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;X-Requested-With: XMLHttpRequest&lt;/li&gt;
+&lt;li&gt;Authorization: Bearer [YOUR_TOKEN]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;query-parameters&#34;&gt;Query Parameters&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;limit&lt;/strong&gt; (optional): Number of districts per page (default: 100)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;page&lt;/strong&gt; (optional): Page number for paginated results (default: 1)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;sort_column&lt;/strong&gt; (optional): Column to sort the results by (default: districtName)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;sort_order&lt;/strong&gt; (optional): Sort order (asc or desc, default: asc)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;response&#34;&gt;Response&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;data&lt;/strong&gt;: Array of districts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pagination&lt;/strong&gt;: Information about pagination (current_page, per_page, total)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: API version&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;get-counties-by-uuid&#34;&gt;GET COUNTIES BY UUID&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;GET /county/{uuid}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;description-1&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;Get details of a specific county by UUID.&lt;/p&gt;
+&lt;h3 id=&#34;headers-1&#34;&gt;Headers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;X-Requested-With: XMLHttpRequest&lt;/li&gt;
+&lt;li&gt;Authorization: Bearer [YOUR_TOKEN]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;parameters&#34;&gt;Parameters&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;uuid&lt;/strong&gt;: UUID of the district&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;response-1&#34;&gt;Response&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;data&lt;/strong&gt;: County details&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: API version&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;get-district-subcounties&#34;&gt;Get District Subcounties&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;GET /county/{uuid}/subcounties
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;get-county-subcounties&#34;&gt;Get County Subcounties&lt;/h2&gt;
+&lt;h3 id=&#34;description-2&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;Get subcounties for a specific county.&lt;/p&gt;
+&lt;h3 id=&#34;headers-2&#34;&gt;Headers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;X-Requested-With: XMLHttpRequest&lt;/li&gt;
+&lt;li&gt;Authorization: Bearer [YOUR_TOKEN]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;parameters-1&#34;&gt;Parameters&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;uuid&lt;/strong&gt;: UUID of the district&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;response-2&#34;&gt;Response&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;county&lt;/strong&gt;: County details&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;subcounties&lt;/strong&gt;: Array of subcounties&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: API version&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;get-county-parishes&#34;&gt;Get County Parishes&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;GET /county/{uuid}/parishes
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;description-3&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;Get parishes for a specific county.&lt;/p&gt;
+&lt;h3 id=&#34;headers-3&#34;&gt;Headers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;X-Requested-With: XMLHttpRequest&lt;/li&gt;
+&lt;li&gt;Authorization: Bearer [YOUR_TOKEN]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;parameters-2&#34;&gt;Parameters&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;uuid&lt;/em&gt;: UUID of the district&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;response-3&#34;&gt;Response&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;county&lt;/strong&gt;: County details&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;parishes&lt;/strong&gt;: Array of parishes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: API version&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;get-county-villages&#34;&gt;Get County Villages&lt;/h2&gt;
+&lt;h2 id=&#34;get-district-subcounties-1&#34;&gt;Get District Subcounties&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;GET /county/{uuid}/villages
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;description-4&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;Get villages for a specific county.&lt;/p&gt;
+&lt;h3 id=&#34;headers-4&#34;&gt;Headers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;X-Requested-With: XMLHttpRequest&lt;/li&gt;
+&lt;li&gt;Authorization: Bearer [YOUR_TOKEN]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;parameters-3&#34;&gt;Parameters&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;uuid&lt;/strong&gt;: UUID of the county&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;response-4&#34;&gt;Response&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;county&lt;/strong&gt;: County details&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;villages&lt;/strong&gt;: Array of subcounties&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: API version&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
