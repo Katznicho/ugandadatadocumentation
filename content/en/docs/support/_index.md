@@ -18,7 +18,7 @@ Your financial support helps keep this project actively maintained and improved.
 
 If you prefer to contribute via mobile money, you can use the following numbers:
 
-- MTN Mobile Money: +256 781 230
+- MTN Mobile Money: +256 781 230 949
 - Airtel Money: +256 759 983 853
 
 Your support is greatly appreciated!
