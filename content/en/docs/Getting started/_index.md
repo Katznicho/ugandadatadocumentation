@@ -14,13 +14,13 @@ Welcome to the Uganda Data Project documentation. This guide will help you get s
 
 Before you begin, ensure that you have the following prerequisite:
 
-- **Uganda Data Project Account:** Visit [uganda.rapharm.shop](https://uganda.rapharm.shop) and sign up for an account if you don't have one.
+- **Uganda Data Project Account:** Visit [uganda.risidev.com.shop](https://uganda.risidev.com) and sign up for an account if you don't have one.
 
 ## Generating API Key
 
 Once you have an account on the Uganda Data Project, follow these steps to generate an API key:
 
-1. Log in to your Uganda Data Project account at [uganda.rapharm.shop](https://uganda.rapharm.shop).
+1. Log in to your Uganda Data Project account at [uganda.risidev.com.shop](https://uganda.risidev.com).
 2. Navigate to your profile settings.
 3. Under the "API Keys" section, generate an API key. Keep this key secure.
 

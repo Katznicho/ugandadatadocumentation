@@ -18,7 +18,7 @@ Follow these steps to generate an API key:
 
 1. **Log in to Your Uganda Data Project Account:**
 
-   - Visit [uganda.rapharm.shop](https://uganda.rapharm.shop) and log in to your Uganda Data Project account.
+   - Visit [uganda.risidev.com](https://uganda.risidev.com) and log in to your Uganda Data Project account.
 
 2. **Navigate to API Keys:**
 
@@ -31,10 +31,4 @@ Follow these steps to generate an API key:
 4. **Copy Your API Key:**
    - Once generated, copy your API key. This key serves as your authentication token.
 
-### Using API Key
 
-To make API requests, include your API key in the HTTP headers of your requests. Here is an example using the `curl` command-line tool:
-
-```bash
-curl -H "Authorization: Bearer YOUR_API_KEY" https://api.uganda-data-project.com/v1/endpoint
-```

@@ -13,4 +13,4 @@ This section provides an overview of the base API for managing data in Uganda. E
 The base URL for the API is:
 
 ```plaintext
-https://uganda.rapharm.shop/api/uganda/data/v1
+https://uganda.risidev,com/api/uganda/data/v1
