@@ -18,7 +18,7 @@ Here's a quick guide to updating the documentation and contributing to the Larav
 
 1. **Fork the Repository:**
 
-   - Fork the [Uganda Data Laravel repository](https://github.com/Katznicho/ugandadistricts-laravel) on GitHub.
+   - Fork the [Uganda Data Laravel repository](https://github.com/Katznicho/ugandadistricts) on GitHub.
 
 2. **Make Your Changes:**
 
